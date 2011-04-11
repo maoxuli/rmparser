@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEFC89C3166FA83000AFFBC5 /* mb_file_io.c in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89B9166FA83000AFFBC5 /* mb_file_io.c */; };
+		FEFC89C4166FA83000AFFBC5 /* rmff.c in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89BC166FA83000AFFBC5 /* rmff.c */; };
+		FEFC89C9166FA83000AFFBC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89C8166FA83000AFFBC5 /* main.cpp */; };
+		FEFC89D7166FA83000AFFBC5 /* rmparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89D3166FA83000AFFBC5 /* rmparser.cpp */; };
+		FEFC89D8166FA83000AFFBC5 /* rmreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89D5166FA83000AFFBC5 /* rmreader.cpp */; };
+		FEFC89DB166FA83000AFFBC5 /* rdtpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEFC89D9166FA83000AFFBC5 /* rdtpacket.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEFC899E166FA83000AFFBC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEFC89A0166FA83000AFFBC5 /* rmparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rmparser; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC89B6166FA83000AFFBC5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		FEFC89B8166FA83000AFFBC5 /* librmff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = librmff.h; sourceTree = "<group>"; };
+		FEFC89B9166FA83000AFFBC5 /* mb_file_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mb_file_io.c; sourceTree = "<group>"; };
+		FEFC89BA166FA83000AFFBC5 /* mb_file_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mb_file_io.h; sourceTree = "<group>"; };
+		FEFC89BB166FA83000AFFBC5 /* os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os.h; sourceTree = "<group>"; };
+		FEFC89BC166FA83000AFFBC5 /* rmff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmff.c; sourceTree = "<group>"; };
+		FEFC89C8166FA83000AFFBC5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEFC89D3166FA83000AFFBC5 /* rmparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rmparser.cpp; sourceTree = "<group>"; };
+		FEFC89D4166FA83000AFFBC5 /* rmparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmparser.h; sourceTree = "<group>"; };
+		FEFC89D5166FA83000AFFBC5 /* rmreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rmreader.cpp; sourceTree = "<group>"; };
+		FEFC89D6166FA83000AFFBC5 /* rmreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmreader.h; sourceTree = "<group>"; };
+		FEFC89D9166FA83000AFFBC5 /* rdtpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rdtpacket.cpp; sourceTree = "<group>"; };
+		FEFC89DA166FA83000AFFBC5 /* rdtpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rdtpacket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFC899D166FA83000AFFBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEFC8995166FA83000AFFBC5 = {
+			isa = PBXGroup;
+			children = (
+				FEFC89C8166FA83000AFFBC5 /* main.cpp */,
+				FEFC89B5166FA83000AFFBC5 /* rmparser */,
+				FEFC89A1166FA83000AFFBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFC89A1166FA83000AFFBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC89A0166FA83000AFFBC5 /* rmparser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFC89B5166FA83000AFFBC5 /* rmparser */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC89D9166FA83000AFFBC5 /* rdtpacket.cpp */,
+				FEFC89DA166FA83000AFFBC5 /* rdtpacket.h */,
+				FEFC89D3166FA83000AFFBC5 /* rmparser.cpp */,
+				FEFC89D4166FA83000AFFBC5 /* rmparser.h */,
+				FEFC89D5166FA83000AFFBC5 /* rmreader.cpp */,
+				FEFC89D6166FA83000AFFBC5 /* rmreader.h */,
+				FEFC89B6166FA83000AFFBC5 /* config.h */,
+				FEFC89B8166FA83000AFFBC5 /* librmff.h */,
+				FEFC89B9166FA83000AFFBC5 /* mb_file_io.c */,
+				FEFC89BA166FA83000AFFBC5 /* mb_file_io.h */,
+				FEFC89BB166FA83000AFFBC5 /* os.h */,
+				FEFC89BC166FA83000AFFBC5 /* rmff.c */,
+			);
+			name = rmparser;
+			path = ../rmparser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFC899F166FA83000AFFBC5 /* rmparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC89A9166FA83000AFFBC5 /* Build configuration list for PBXNativeTarget "rmparser" */;
+			buildPhases = (
+				FEFC899C166FA83000AFFBC5 /* Sources */,
+				FEFC899D166FA83000AFFBC5 /* Frameworks */,
+				FEFC899E166FA83000AFFBC5 /* CopyFiles */,
+				FEFC89D2166FA83000AFFBC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rmparser;
+			productName = rmparser;
+			productReference = FEFC89A0166FA83000AFFBC5 /* rmparser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFC8997166FA83000AFFBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = GWU;
+			};
+			buildConfigurationList = FEFC899A166FA83000AFFBC5 /* Build configuration list for PBXProject "rmparser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEFC8995166FA83000AFFBC5;
+			productRefGroup = FEFC89A1166FA83000AFFBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFC899F166FA83000AFFBC5 /* rmparser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEFC89D2166FA83000AFFBC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH $PROJECT_DIR/$EXECUTABLE_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFC899C166FA83000AFFBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC89C3166FA83000AFFBC5 /* mb_file_io.c in Sources */,
+				FEFC89C4166FA83000AFFBC5 /* rmff.c in Sources */,
+				FEFC89C9166FA83000AFFBC5 /* main.cpp in Sources */,
+				FEFC89D7166FA83000AFFBC5 /* rmparser.cpp in Sources */,
+				FEFC89D8166FA83000AFFBC5 /* rmreader.cpp in Sources */,
+				FEFC89DB166FA83000AFFBC5 /* rdtpacket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEFC89A7166FA83000AFFBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEFC89A8166FA83000AFFBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEFC89AA166FA83000AFFBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = ../rmparser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEFC89AB166FA83000AFFBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = ../rmparser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFC899A166FA83000AFFBC5 /* Build configuration list for PBXProject "rmparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC89A7166FA83000AFFBC5 /* Debug */,
+				FEFC89A8166FA83000AFFBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC89A9166FA83000AFFBC5 /* Build configuration list for PBXNativeTarget "rmparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC89AA166FA83000AFFBC5 /* Debug */,
+				FEFC89AB166FA83000AFFBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEFC8997166FA83000AFFBC5 /* Project object */;
+}

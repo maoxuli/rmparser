@@ -1,0 +1,12 @@
+Real Media is a proprietary multimedia container format 
+created by RealNetworks. File with extension of ".rm" 
+contains typically CBR (constant bitrate) streams, while 
+".rmvb" contains VBR (variable bitrate) streams. 
+
+Code here is a parser implementation of Real Media file. 
+It is based on a open-source code of librmff. The parser 
+packs media content frames into RDT packets. 
+
+li@maoxuli.com
+
+
