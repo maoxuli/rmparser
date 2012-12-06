@@ -808,7 +808,7 @@ rmff_read_next_frame(rmff_file_t *file,
     buffer = safemalloc(length);
     frame->allocated_by_rmff = 1;
   }
-  frame->data = buffer;
+  frame->data = (unsigned char*)buffer;
   frame->size = length - 12;
   frame->id = read_uint16_be();
   frame->timecode = read_uint32_be();

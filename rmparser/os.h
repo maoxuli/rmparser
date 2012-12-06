@@ -24,13 +24,13 @@
 # endif
 #endif
 
-#if defined(COMP_MSC)
-# define strncasecmp _strnicmp
-# define strcasecmp _stricmp
-# define nice(a)
-# define vsnprintf _vsnprintf
-# define vfprintf _vfprintf
-#endif // COMP_MSC
+//#if defined(COMP_MSC)
+//# define strncasecmp _strnicmp
+//# define strcasecmp _stricmp
+//# define nice(a)
+//# define vsnprintf _vsnprintf
+//# define vfprintf _vfprintf
+//#endif // COMP_MSC
 
 #if defined(COMP_MINGW) || defined(COMP_MSC)
 
@@ -52,6 +52,7 @@
 
 #if defined(SYS_WINDOWS)
 # define PATHSEP '\\'
+# include <windows.h>
 #else
 # define PATHSEP '/'
 #endif

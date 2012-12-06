@@ -22,7 +22,7 @@
 #ifndef __MB_FILE_IO_H
 #define __MB_FILE_IO_H
 
-#include <inttypes.h>
+#include <stdint.h>
 
 #define MB_OPEN_MODE_READING 0
 #define MB_OPEN_MODE_WRITING 1

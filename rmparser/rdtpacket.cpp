@@ -1,6 +1,9 @@
 #include "rdtpacket.h"
 #include <memory.h>
 #include <assert.h>
+#ifdef _WIN32
+#include <Windows.h>
+#endif
 
 RdtPacket::RdtPacket(uint16_t payloadSize)
 {

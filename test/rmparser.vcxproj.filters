@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\rmparser\mb_file_io.c">
+      <Filter>rmparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rmparser\rdtpacket.cpp">
+      <Filter>rmparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rmparser\rmff.c">
+      <Filter>rmparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rmparser\rmparser.cpp">
+      <Filter>rmparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rmparser\rmreader.cpp">
+      <Filter>rmparser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rmparser">
+      <UniqueIdentifier>{96db4baf-cbae-4a50-8670-919fb42221b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\rmparser\config.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\librmff.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\mb_file_io.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\os.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\rdtpacket.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\rmparser.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rmparser\rmreader.h">
+      <Filter>rmparser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

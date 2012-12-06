@@ -246,7 +246,7 @@ extern "C" {
 
 #include "os.h"
 
-#include <inttypes.h>
+#include <stdint.h>
 #include <stdio.h>
 
 #include "mb_file_io.h"
@@ -377,7 +377,8 @@ typedef struct rmff_mdpr_t {
   unsigned char *type_specific_data;
 } rmff_mdpr_t;
 
-typedef struct __attribute__((__packed__)) real_video_props_t {
+#pragma pack(push, 1)
+typedef struct real_video_props_t {
   uint32_t size;
   uint32_t fourcc1;
   uint32_t fourcc2;
@@ -390,7 +391,7 @@ typedef struct __attribute__((__packed__)) real_video_props_t {
   uint32_t type2;
 } real_video_props_t;
 
-typedef struct __attribute__((__packed__)) real_audio_v4_props_t {
+typedef struct real_audio_v4_props_t {
   uint32_t fourcc1;             /* '.', 'r', 'a', 0xfd */
   uint16_t version1;            /* 4 or 5 */
   uint16_t unknown1;            /* 00 00 */
@@ -413,7 +414,7 @@ typedef struct __attribute__((__packed__)) real_audio_v4_props_t {
   uint16_t channels;
 } real_audio_v4_props_t;
 
-typedef struct __attribute__((__packed__)) real_audio_v5_props_t {
+typedef struct real_audio_v5_props_t {
   uint32_t fourcc1;             /* '.', 'r', 'a', 0xfd */
   uint16_t version1;            /* 4 or 5 */
   uint16_t unknown1;            /* 00 00 */
@@ -438,6 +439,8 @@ typedef struct __attribute__((__packed__)) real_audio_v5_props_t {
   uint32_t genr;                /* "genr" */
   uint32_t fourcc3;             /* fourcc */
 } real_audio_v5_props_t;
+
+#pragma pack(pop)
 
 typedef struct rmff_index_entry_t {
   uint32_t pos;
